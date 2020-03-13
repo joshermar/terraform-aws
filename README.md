@@ -1,6 +1,9 @@
 # Complete Terraform deployment of EC2 along with VPC
 
 ## Instructions
+
+This assumes you have the basic knowledge to set up AWS access keys through IAM, as well as set local environment variables and create ssh keys.
+
 1. Open terraform-aws and locate resource "aws_key_pair". You must define the `public_key` variable with the key you want to use.
 2. Run `terraform init`
 3. Optionally, run `terraform plan` to view changes before applying
